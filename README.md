@@ -1,2 +1,3 @@
-# PI2_2021-2
-Projeto Integrador II da Engenharia Eletrônica
+# Projeto Integrador  II
+
+Este  projeto  é referente a matéria de Projeto Integrador II
