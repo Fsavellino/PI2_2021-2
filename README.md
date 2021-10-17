@@ -6,12 +6,4 @@ Conceber, Projetar, implementar e Operar.
 O projeto é uma avaliação desenvolvida para a unidade curricular de Projeto Integrador II, de 2021.2.
 Curso de Engenharia Eletrônica do Instituto Federal de Santa Catarina.
 
-1. Introduçâo
-
-2. Conceição
-
-3. Projeto
-
-4. Implementação
-
-5. Operação
+1. [Introdução](./introducao.md)
