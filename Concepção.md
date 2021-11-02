@@ -1,25 +1,19 @@
 ## Concepção
 
-Este projeto tem como objetivo desenvolver um sistema de automação residencial completo que atenda os requisitos feitos pelo usuário, e assim gerar mais conforto, comodidade, segurança.
+Este projeto tem como objetivo desenvolver um sistema de domótica completo que atenda os requisitos feitos pelo usuário, com custo baixo e com dispositivos que promovem mais conforto, comodidade e segurança para a casa e para os moradores.
 
+#### Seguindo as necessidades definidas pelo usuário serão utilizados os seguintes componentes respectivamente com suas finalidades:
 
+* Sensor de Umidade e Temperatura para controle 
 
-Sensor de Umidade e Temperatura DHT11
+* Sensor de gás e fumaça para evitar vazamento e uma possivel explosão na casa;
 
-Sensor de presença e movimento PIR
+* Módulo Sensor de Umidade/Nível Água Chuva para controle da rega das plantas no quintal da casa;
 
-Sensor de gás MQ-2 inflamável e fumaça
+* Sensor ultrasônico juntamente com o micro servo, servirão para ter uma abertura automatica do portão de entrada;
 
-Micro Servo SG92R 9g TowerPro
+* Matriz de led juntamente com um módulo relé servirá como luz de emergencia;
 
-Módulo Sensor de Umidade/Nível Água Chuva
+* Buzzer, servirá como uma buzina que irá soar quando o sensor de presença detectar um movimento nos fundos da casa;
 
-Módulo Relé 5 V e um Canal
-
-Sensor ultrasônico HC-SR04
-
-Módulo Matriz de LED 8×8 com MAX7219
-
-Buzzer passivo
-
-Display LCD 16×2 I2C Backlight Azul
+* Display LCD para monitoramento dos dados gerados pelos sensores de umidade/temperatura e sensor de gás.
