@@ -4,7 +4,7 @@ Este projeto tem como objetivo desenvolver um sistema de domótica completo, vis
 
 #### Seguindo os objetivos definidos no projeto serão utilizados os seguintes componentes respectivamente com suas finalidades:
 
-* Sensor de Temperatura para controle do aquecimento da agua no boiler, assim que a temperatura ultrapassar os 50°C,o display LCD irá mostrar umas mensagem de que a casa já possui agua quente para banho;
+* Sensor de Temperatura para controle do aquecimento da agua no boiler, assim que a temperatura ultrapassar os 50°C,o display LCD irá mostrar uma mensagem de que a casa já possui agua quente para banho;
 
 * Sensor de gás e de fumaça, quando o sensor atingir um valor 20% maior que o convencional acionará um ventilador, se o ventilador não acionar, um buzzer emitirá um alarme sonoro  para evitar um vazamento ou um possivel acidente;
 
