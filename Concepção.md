@@ -10,7 +10,7 @@ Este projeto tem como objetivo desenvolver um sistema de domótica completo, vis
 
 * Módulo Sensor de Umidade/Nível Água Chuva para controle da rega das plantas no quintal da casa, quando o sensor de nivel da água estiver acima de 50% e o sensor de umidade abaixo de 75%, emitirá um aviso no display LCD para regar as plantas;
 
-* Sensor ultrasônico juntamente com o micro servo e um controle infravermelho, servirão para ter uma abertura automatica do portão de entrada, quando o sensor detectar uma distancia de 3cm e um botão do controle for acionado o portão irá abrir;
+* Sensor ultrasônico juntamente com o micro servo e um controle infravermelho, servirão para ter uma abertura automatica do portão de entrada, quando o sensor detectar uma distancia de 3cm, o display LCD irá emitir um aviso de que possui visita, e quando o botão do controle for acionado o portão irá abrir;
 
 * Matriz de led juntamente com um módulo relé servirá como luz de emergência, assim que a luz acabar o relé irá mudar de estado, para normalmente fechado, e vai acionar a matriz de led;
 
