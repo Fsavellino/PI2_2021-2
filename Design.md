@@ -1,3 +1,9 @@
+## Design
+
+De acordo com o que foi estabelecido na etapa de concepção, agora iremos colocar em prática tudo que foi pensado afim de viabilizar o projeto. nesta etapa faz-se necessário estabelecer a quantidade de componentes e quais serão utilizados, além de suas ligações. Para tal, foi desenvolvido uma tabela com os componentes necessários, um diagrama com as ligações e uma planta baixa indicando onde cada sensor será posicionado.
+
+## Componentes:
+
 Quantidade  | Tecnologias
 :---------:   | ------
 1           | Placa Arduino MEGA 2560 R3
@@ -14,7 +20,7 @@ Quantidade  | Tecnologias
 1           | Módulo e controle infravermelho
 
 
-## O circuito:
+## Diagrama do circuito:
 
 #### A imagem abaixo, demonstra as ligações de todos os sensores no Arduino mega, que é o principal do circuito, ele que irá comandar todos os sensores a realizarem suas devidas funções.
 
