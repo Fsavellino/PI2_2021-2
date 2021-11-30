@@ -1,14 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
 Quantidade  | Tecnologias
 :---------:   | ------
 1           | Placa Arduino MEGA 2560 R3
@@ -24,3 +13,9 @@ Quantidade  | Tecnologias
 2           | Cooler 120mm
 1           | Módulo e controle infravermelho
 
+
+## O circuito:
+
+#### A imagem abaixo, demonstra as ligações de todos os sensores no Arduino mega, que é o principal do circuito, ele que irá comandar todos os sensores a realizarem suas devidas funções.
+
+![circuito_projetoPI](https://user-images.githubusercontent.com/72568537/144081114-8f59c92e-7e57-409e-9cfe-b606c5aff8f6.png)
