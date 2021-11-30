@@ -26,4 +26,7 @@ Quantidade  | Tecnologias
 
 ![circuito_projetoPI](https://user-images.githubusercontent.com/72568537/144081114-8f59c92e-7e57-409e-9cfe-b606c5aff8f6.png)
 
+## Planta baixa:
+
+#### A imagem abaixo, demonstra a planta  baixa da casa que será implementada no projeto integrador, indicando onde cada sensor irá ficar localizado.
 ![PlantaBaixaPI](https://user-images.githubusercontent.com/72568537/144092347-b723cf7f-8b9b-416f-bc28-9d13d2f5a1b6.png)
