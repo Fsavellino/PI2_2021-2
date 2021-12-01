@@ -16,9 +16,10 @@ Quantidade  | Tecnologias
 1           | Módulo Matriz de LED 8×8 com MAX7219
 1           | Buzzer passivo
 1           | Display LCD 16×2 I2C Backlight Azul
-2           | Cooler 120mm
-1           | Módulo e controle infravermelho
+2 $         | Cooler 120mm
+1 $         | Módulo e controle infravermelho
 
+OBS: componentes com "$" ja possuo em casa
 
 ## Diagrama do circuito:
 
