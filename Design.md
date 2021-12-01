@@ -25,7 +25,8 @@ OBS: componentes com "$" ja possuo em casa
 
 #### A imagem abaixo, demonstra as ligações de todos os sensores no Arduino mega, que é o principal do circuito, ele que irá comandar todos os sensores a realizarem suas devidas funções.
 
-![circuito_projetoPI](https://user-images.githubusercontent.com/72568537/144081114-8f59c92e-7e57-409e-9cfe-b606c5aff8f6.png)
+![circuito_projetoPI](https://user-images.githubusercontent.com/72568537/144244302-c21c677e-6a27-4c81-9242-cbf7ec70407d.png)
+
 
 ## Planta baixa:
 
