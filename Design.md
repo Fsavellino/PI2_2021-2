@@ -19,7 +19,7 @@ Quantidade  | Tecnologias
 2 $         | Cooler 120mm
 1 $         | Módulo e controle infravermelho
 
-OBS: componentes com "$" ja possuo uma unidaded en casa
+OBS: componentes com "$" ja possuo uma unidade em casa
 
 ## Diagrama do circuito:
 
