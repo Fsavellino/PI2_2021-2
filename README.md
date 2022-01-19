@@ -10,3 +10,4 @@ Curso de Engenharia Eletrônica do Instituto Federal de Santa Catarina.
 2. [Concepção](./Concepção.md)
 3. [Design](./Design.md)
 4. [Implementação](./Implementação.md)
+5. [Operação](./Operação.md)
