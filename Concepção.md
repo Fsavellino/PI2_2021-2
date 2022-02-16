@@ -12,7 +12,7 @@ Este projeto tem como objetivo desenvolver um sistema de domótica completo, vis
 
 * Sensor ultrasônico juntamente com o micro servo e um controle infravermelho, servirão para ter uma abertura automatica do portão de entrada, quando o sensor detectar uma distancia de 3cm, o display LCD irá emitir um aviso de que possui visita, e quando o botão do controle for acionado o portão irá abrir;
 
-* Matriz de led juntamente com um módulo relé servirá como luz de emergência, assim que a luz acabar o relé irá mudar de estado, para normalmente fechado, e vai acionar a matriz de led
+* Matriz de led servirá como luz de emergência, assim que a luz acabar vai acionar a matriz de led.
 
 * Display LCD para monitoramento dos dados gerados pelos sensores de umidade/temperatura e sensor de gás.
 
