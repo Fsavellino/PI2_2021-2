@@ -14,7 +14,7 @@ Este projeto tem como objetivo desenvolver um sistema de domótica completo, vis
 
 * Matriz de led servirá como luz de presença, assim que o sensor PIR detectar um movimento a matriz de led será acionada.
 
-* Display LCD para monitoramento dos dados gerados pelos sensores de umidade/temperatura e sensor de gás.
+* Display LCD para monitoramento dos dados gerados pelos sensores de umidade/temperatura.
 
 
 
