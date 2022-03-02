@@ -1,7 +1,11 @@
 ---
 
+<img align="right" img alt="CDIO" src="https://user-images.githubusercontent.com/72568537/156454098-0d24bb87-9fa6-486e-85c9-8f517c45bbc0.png" width="150" />
+<img align="right" img alt="CDIO" src="https://user-images.githubusercontent.com/72568537/156454688-de6906e4-dcd9-40a0-a1cb-4099d75d1289.jpg" width="111" />
+
 # Projeto Integrador  II
-<img align="right" alt="CDIO" src="https://www.google.com/url?sa=i&url=http%3A%2F%2Ffme.hcmut.edu.vn%2Fthong-bao-1-ve-viec-to%25CC%2589-chuc-ngay-ho%25CC%25A3i-ky%25CC%2583-thua%25CC%25A3t-2019.html&psig=AOvVaw2ZU1yq8mD-2oeYd05e8XE1&ust=1646342742133000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMjfnueuqPYCFQAAAAAdAAAAABAW" width="190" />
+
+Aluno: Fabio Schmitt Avelino
 
 ---
 
@@ -11,8 +15,13 @@ conceber, projetar, implementar e operar.
 O projeto é uma avaliação desenvolvida para a unidade curricular de Projeto Integrador II, de 2021.2.
 Curso de Engenharia Eletrônica do Instituto Federal de Santa Catarina.
 
-1. [Introdução](./Introdução.md)
-2. [Concepção](./Concepção.md)
-3. [Design](./Design.md)
-4. [Implementação](./Implementação.md)
-5. [Operação](./Operação.md)
+---
+
+#### Acesso rápido:
+* [Introdução](./Introdução.md)
+
+##### Etapas do CDIO:
+1. [Concepção](./Concepção.md)
+2. [Design](./Design.md)
+3. [Implementação](./Implementação.md)
+4. [Operação](./Operação.md)
