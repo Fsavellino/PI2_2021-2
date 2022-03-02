@@ -8,6 +8,7 @@
 //################################################################################################################################//
 
 //Inclusão das bibliotecas
+
 #include "Wire.h"
 #include "Ultrasonic.h"
 
@@ -19,21 +20,25 @@
 //################################################################################################################################//
 
 // Definição dos pinos que serão utilizados pelos sensores
-#define PIR 52
-#define RELE 12
-#define RELE2 7
-#define BUZZER 37
-#define SERVO 13
+
+#define PIR 52                                         // Pino ligado ao sensor PIR
+#define RELE 12                                        // Pino ligado o módulo RELE
+#define RELE2 7                                        // Pino ligado o módulo RELE
+#define BUZZER 37                                      // Pino ligado o módulo BUZZER
+#define SERVO 13                                       // Pino ligado ao SERVO
 #define pinoEcho 5                                     // Pino de comunicaçao ligado ao Echo
 #define pinoTrig 6                                     // Pino de comunicaçao ligado ao Trig
 
 
-#define SENSOR_AGUA A5
-#define GAS A6
-#define DHT11PIN A7
+#define SENSOR_AGUA A5                                 // Pino ligado o sensor de água
+#define GAS A6                                         // Pino ligado o sensor de gás
+#define DHT11PIN A7                                    // Pino ligado o sensor de temperatura/umidade
 #define DHTTYPE DHT11
 
-// nomeando os componentes
+//################################################################################################################################//
+
+// Nomeando os componentes
+
 Servo servo;
 MatrizLed matriz;
 DHT dht(DHT11PIN, DHTTYPE);
@@ -69,17 +74,19 @@ void setup()                                        // Função setup é executa
 
 
   servo.attach(SERVO);                              // Associa o pino escolhido ao servo motor
-  servo.write(0);
+  servo.write(0);                                   // Inicia o servo na posição 0
 
   digitalWrite(BUZZER, HIGH);                       // Configura o buzzer para ficar desligado
-  digitalWrite(RELE, LOW);
+  digitalWrite(RELE, LOW);                          // Configura o RELE para ficar desligado
+  digitalWrite(RELE2, LOW);                         // Configura o RELE2 para ficar desligado
 
 
   pinMode(BUZZER, OUTPUT);                          // define o pin do buzzer com saída
   pinMode (RELE, OUTPUT);                           // define o pin do rele com saída
-  pinMode (RELE2, OUTPUT);
+  pinMode (RELE2, OUTPUT);                          // define o pin do rele com saída
+  
   pinMode (PIR, INPUT);                             // define pin do PIR como entrada
-  pinMode(GAS, INPUT);
+  pinMode(GAS, INPUT);                              // define pin do GAS como entrada
 }
 
 //################################################################################################################################//
@@ -97,19 +104,19 @@ void loop()                                         // Função loop é para exe
 
 // VARIÁVEIS GLOBAIS
 
-const unsigned long periodo_tarefa_temperatura = 1000;
+const unsigned long periodo_tarefa_temperatura = 1000;      // Tempo da tareda de temperatura = 1 segundo
 unsigned long tempo_tarefa_temperatura = millis();
 
-const unsigned long periodo_tarefa_GAS = 2000;
+const unsigned long periodo_tarefa_GAS = 2000;              // Tempo da tareda do GAS = 2 segundos
 unsigned long tempo_tarefa_GAS = millis();
 
-const unsigned long periodo_tarefa_AGUA = 5000;
+const unsigned long periodo_tarefa_AGUA = 5000;             // Tempo da tareda da AGUA = 5 segundos
 unsigned long tempo_tarefa_AGUA = millis();
 
-const unsigned long periodo_tarefa_PIR = 1000;
+const unsigned long periodo_tarefa_PIR = 1000;              // Tempo da tareda do PIR = 1 segundo
 unsigned long tempo_tarefa_PIR = millis();
 
-const unsigned long periodo_tarefa_ULTRASONIC = 500;
+const unsigned long periodo_tarefa_ULTRASONIC = 500;        // Tempo da tareda do ULTRASONIC = 0,5 segundo
 unsigned long tempo_tarefa_ULTRASONIC = millis();
 
 //################################################################################################################################//
@@ -255,3 +262,7 @@ void tarefa_ULTRASONIC()
     }
   }
 }
+
+//################################################################################################################################//
+// FIM DO CÓDIGO
+//################################################################################################################################//
