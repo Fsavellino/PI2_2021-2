@@ -25,10 +25,10 @@ Quantidade  | Tecnologias
 
 #### A imagem abaixo, demonstra as ligações de todos os sensores no Arduino mega, que é o principal do circuito, ele que irá comandar todos os sensores a realizarem suas devidas funções.
 
-![circuito_projetoPI](https://user-images.githubusercontent.com/72568537/144244302-c21c677e-6a27-4c81-9242-cbf7ec70407d.png)
+![circuito](https://user-images.githubusercontent.com/72568537/157464869-e681deae-f1a1-4938-a0d7-e14daf8dcf97.png)
 
 
 ## Planta baixa:
 
 #### A imagem abaixo, demonstra a planta  baixa da casa que será implementada no projeto integrador, indicando onde cada sensor irá ficar localizado.
-![PlantaBaixaPI](https://user-images.githubusercontent.com/72568537/144092347-b723cf7f-8b9b-416f-bc28-9d13d2f5a1b6.png)
+![planta baixa](https://user-images.githubusercontent.com/72568537/157466253-a438eb16-65a8-4d19-aa7d-0addfe44cad6.png)
